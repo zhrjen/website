@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('nctbg.png');
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+#h2-container {
+    text-align: center;
+    background-color: rgb(230, 255, 230);
+    width: 21%;
+    border: 9px solid #99ff99;
+    padding: none;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2% auto;
+}
+
+#header {
+    padding: 0.7%;
+    background-color: #4dff4d;
+}
+
+#logo {
+    float: left;
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+
+#header-name {
+    font-size: 50px;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px #262626;
+}
+
+#nav-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#nav-bar li {
+    display: inline;
+    margin-right: 2.8%;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#nav-bar a:hover {
+    color: #00004d;
+}
+
+/*Home*/
+.dropdown .dropbtn {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: light;
+    font-size: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4dff4d;
+    min-width: 11.2%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0; 
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.714% 0.742%;
+    text-decoration: none;
+    display: block;
+    font-size: 7px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #4dff4d;
+    min-width: 11.2%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 15%; 
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 0.714% 0.742%;
+    text-decoration: none;
+    display: block;
+    font-size: 7px;
+}
+
+.dropdown-content2 a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content2 {
+    display: block;
+}
+
+
+#picon {
+    width: 84%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.1% auto;
+}
+
+.homepics {
+    max-width: 400%;
+    max-height: 100%;
+    display: flex;
+    transition: transform 0.3s; /* Add a transition for image dilation */
+}
+
+.homepics:hover {
+    transform: scale(1.2); /* Enlarge the image by 20% when hovered */
+}
+
+#NCT127, #NCTDREAM, #WAYV {
+    text-align: center;
+    background-color: rgb(230, 255, 230);
+    width: 21%;
+    border: 2px groove #001a00;
+    padding: 0.7%;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    margin: 6%;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid #001a00;
+    padding: 0px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 2%;
+}
+
+#NCT127 img, #NCTDREAM img, #WAYV img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.buttons {
+    background-color: white;
+    border: 2px solid #001a00;
+    padding: 0;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto; 
+}
+
+#NCT127:hover, #NCTDREAM:hover, #WAYV:hover, .dropdown:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/*NCT-127, NCT DREAM, WAYV*/
+.members {
+    text-align: center;
+    background-color: rgb(230, 255, 230);
+    width: 21%;
+    height: 570px;
+    border: 2px groove #001a00;
+    padding: 0.7%;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    margin: 6%;
+}
+
+.members img {
+    width: 100%;
+    height: 50%;
+    display: block;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add a transition for the container effect */
+}
+
+.members:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box127 {
+    background-color: white;
+    border: 2px solid #001a00;
+    padding: 0; /* Change 'none' to '0' to remove padding */
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.box127 img {
+    max-width: 5%;
+    max-height: 10%;
+}
+
+ul {
+    text-align: left;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #00b300;
+}
+
+p {
+    font-weight: bold;
+}
+
+.sprite1 {
+}
+
+.sprite1:hover {
+}
+
+.sprite2 {
+}
+
+.sprite2:hover {
+}
+
+video {
+	border: 10px solid #99ff99;
+	display: block;
+	margin: 0 auto;
+}
+
+footer:nth-child(1) {
+}
+
+footer:nth-child(2) {
+}
+
+footer:nth-child(3) {
+	font-size: 10px;
+	text-align: 50%;
+}	
